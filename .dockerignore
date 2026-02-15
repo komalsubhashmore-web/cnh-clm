@@ -1,0 +1,15 @@
+# Python bytecode cache folders
+__pycache__/
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files with sensitive variables (like API keys)
+.env
+
+# Avoid uploading large model directories accidentally (optional)
+*.pt
+*.bin
+*.cache

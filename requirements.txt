@@ -1,0 +1,19 @@
+# --- Core APIs (optional, only if you run as API server) ---
+fastapi
+uvicorn[standard]
+
+# --- Model Inference ---
+torch>=2.0
+transformers>=4.38.0
+accelerate
+sentencepiece
+scipy
+
+# --- RAG / Embeddings ---
+tokenizers
+pillow
+
+# --- Retrieval & Reranking ---
+mxbai-rerank
+h5py
+# gunicorn
